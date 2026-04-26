@@ -292,8 +292,8 @@ def test_complete_jedi_offers_string_methods_for_captured_stdout(
                 ("function", "def __get__"),
             ),
             RichCompletion(
-                "from_bytes",
-                display="from_bytes()",
+                "from_bytes(",
+                display="from_bytes(",
                 description="from_bytes(bytes, byteorder, *, signed=False)",
             ),
         ),
